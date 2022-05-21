@@ -1,0 +1,29 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+}
+.pagination li {
+  padding: 10px 15px;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+  color: black;
+  font-weight: 300;
+}
+.pagination li:hover {
+  background-color: #e4e3e3;
+}
+.pagination button {
+  padding: 10px 15px;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+  color: black;
+  font-weight: 300;
+  background-color: #fff;
+}
+.pagination button:hover {
+  background-color: #e4e3e3;
+}
+.pagination button:disabled {
+  cursor: not-allowed;
+}

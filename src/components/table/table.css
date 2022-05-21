@@ -1,0 +1,41 @@
+.api-data-table {
+  width: 100%;
+  overflow: scroll;
+  border-collapse: collapse;
+  cursor: pointer;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  table-layout: fixed;
+}
+
+.api-data-table thead tr {
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.api-data-table th,
+.api-data-table td {
+  padding: 15px 15px;
+}
+.api-data-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+.api-data-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.api-data-table tbody tr:last-of-type {
+  border-bottom: 3px solid black;
+}
+.api-data-table tbody tr:hover {
+  background-color: #e2e2e2;
+}
+.api-data-table tbody tr td {
+  overflow: hidden;
+}
+.api-data-table tbody tr td:hover {
+  overflow: scroll;
+}
